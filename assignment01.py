@@ -14,3 +14,15 @@
 
 
 
+assignment = '''
+
+     |   |
+  ---+---+---
+     |   |
+  ---+---+---
+     |   |
+
+'''
+
+print(assignment)
+print("Assignment completed.")
