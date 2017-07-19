@@ -1,7 +1,7 @@
 
 # Assignment 1:
 #
-#   Update this file to use print a tic-tac-toe board like this:
+#   Update this file to print a tic-tac-toe board like this:
 #
 #      |   |
 #   ---+---+---
