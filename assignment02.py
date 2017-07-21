@@ -3,12 +3,10 @@
 #   Problems in this assignment are based on the information from this page:
 #       http://www.python-course.eu/python3_variables.php
 #
-#   1. Create a new branch:  git checkout -b assignment02
-#   2. Use 'git status' to make sure you are on the 'assignment02' branch.
-#   3. Write python code corresponding to the problems below.
-#   4. Use git add and commit to save your changes in your branch.
-#   5. Push your branch to github:   git push origin assignment02
-#   6. Go to github.com and create a 'Pull Request' for the 'assignment02' branch, and assign it to 'mtday'
+#   1. Create a new branch in PyCharm with name assignment02
+#   2. Write python code corresponding to the problems below.
+#   3. Use PyCharm to add, commit, and push your changes into your git branch.
+#   4. Go to github.com and create a 'Pull Request' for the 'assignment02' branch, and assign it to 'mtday'
 #
 
 # Example Problem: Create a variable called "z" with an integer value of:   10
