@@ -52,22 +52,20 @@ print(len(b))
 
 # Problem 13: Use the "+" operator to create a new list variable called "c" that is list "a" with 6 and 7
 # concatenated to the end.
-z = ["6", "7"]
-c = a + z
-# It didn't like when I did: c = [a + 6 + 7]
+c = a + [6, 7]
 
 # Problem 14: Use the "+" operator to create a new tuple variable called "d" that is tuple "b" with 6 and 7
 # concatenated to the end.
-print("Problem 14: Can't change a tuple! I figured it out, right at first! It totally wasn't only after 3 or 4 tries.")
+d = b + (6, 7)
 
 # Problem 15: Create a variable called "e" that is a list containing the list "a" and the tuple "b".
-e = [[a] + [b]]
+e = [a, b]
 
 # Problem 16: Print out the first element of list "e" (should print out list "a").
-print(e[0][0])
+print(e[0])
 
 # Problem 17: Print out the second element inside the second element of list "e" (should print out "1").
-print(e[0][0][1])
+print(e[1][1])
 
 # Problem 18: Use the "in" keyword to print whether 3 is in the list "a" (should print "True").
 print(3 in a)
