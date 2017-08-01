@@ -10,17 +10,19 @@
 #
 
 # Problem 1: Create a variable called "s" that is an empty set.
-
+s = set()
 
 # Problem 2: Create a variable called "list" that is a list containing the values 1, 2, 3, 1, 2, 3.
-
+list = [1, 2, 3, 1, 2, 3]
 
 # Problem 3: Create a variable called "myset" that is a set populated with the distinct values from "list",
 # and print the resulting set. The output should be:   {1, 2, 3}
-
+myset = set(list)
+print(myset)
 
 # Problem 4: Add the value 1 to the set "s", and print the result. The output should be:   {1}
-
+s.add(1)
+print(s)
 
 # Problem 5: Use square brackets to change the value of "B" to 4 in the letters dictionary,
 # and print the result. The output should be:   {'A': 3, 'B': 4}
@@ -30,14 +32,16 @@
 
 
 # Problem 7: Print out the length of "myset". The output should be:   3
-
+print(len(myset))
 
 # Problem 8: Print out the boolean value indicating whether "myset" contains the value "2".
 # The output should be:    True
-
+print(2 in myset)
 
 # Problem 9: Remove 2 from "myset", and print the resulting set. The output should be:   {1, 3}
-
+myset.remove(2)
+print(myset)
 
 # Problem 10: Remove all values from "myset", and print the resulting set. The output should be:   set()
-
+myset.clear()
+print(myset)
