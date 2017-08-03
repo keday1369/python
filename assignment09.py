@@ -1,5 +1,5 @@
 #
-# Assigment 9:
+# Assignment 9:
 #
 # Solve this problem from https://projecteuler.net/problem=2:
 #
@@ -12,8 +12,21 @@
 # even-valued terms.
 #
 
+
+
+
+
 total = 0
-
+numbers = [1, 2]
 # Solve the problem here.
-
-print("Sum: " + str(total))
+while numbers[-1] in range(0, 4000000):
+    total = numbers[-1] + numbers[-2]
+    numbers.append(total)
+total = 0
+even_numbers = []
+while total < len(numbers):
+    if numbers[total] % 2 == 0:
+        even_numbers.append(numbers[total])
+    total += 1
+total = sum(even_numbers)
+print("Total is " + str(total))
