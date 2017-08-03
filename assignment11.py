@@ -1,10 +1,12 @@
 #
 # Assignment 11:
 #
-# Solve this problem from https://projecteuler.net/problem=3:
+# Using loops, write code to print out the following tic-tac-toe board:
 #
-# The prime factors of 13195 are 5, 7, 13 and 29.
-#
-# What is the largest prime factor of the number 600851475143?
+#    0 | 1 | 2
+#   ---+---+---
+#    3 | 4 | 5
+#   ---+---+---
+#    6 | 7 | 8
 #
 
